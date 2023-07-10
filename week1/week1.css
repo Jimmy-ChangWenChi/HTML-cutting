@@ -48,7 +48,6 @@ table {
 }
 
 .container{
-    width: 1920px;
     margin:0 auto;
     font-family:'Castoro';
 }
@@ -58,7 +57,7 @@ h1{
     margin-top: 160px;
     margin-left: 312px;
     font-size: 128px;
-    letter-spacing: 12%;
+    letter-spacing: 0.12em;
 }
 .main{
     display: block;
@@ -67,5 +66,57 @@ h1{
 .RESUME{
     margin-left: 972px;
     line-height: 192px;
-    letter-spacing: 12%;
+    letter-spacing: 0.12em;
+    font-size: 128px;
+}
+.introduce{
+    background: #EFEFEF;
+}
+
+.content p{
+    width:636px;
+    font-size: 32px;
+    line-height: 48px;
+    padding-top:48px;
+    padding-left: 972px;
+    padding-bottom: 48px;
+    margin-bottom: 40px;
+}
+.history{
+    padding-left: 312px;
+    padding-right: 972px;
+    padding-bottom: 160px;
+}
+
+.history .title{
+    margin-top: 40px;
+    width: 636px;
+    color: #AE0000;
+    border-bottom: 3px solid #AE0000;
+    line-height: 60px;
+    font-size: 40px;
+}
+
+.history li{
+    margin-top: 16px;
+    line-height: 36px;
+    font-size: 24px;
+    margin-bottom: 12px;
+    width: 636px;
+}
+
+.history .year{
+    line-height: 30px;
+    color: #949494;
+    width: 636px;
+}
+
+.footer {
+    padding:64px 784px 64px 784px;
+    background: #000000;
+}
+.footer img{
+    margin-right: 40px;
+    width: 64px;
+    height: 64px;
 }
