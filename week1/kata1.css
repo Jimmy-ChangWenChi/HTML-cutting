@@ -47,38 +47,35 @@ table {
 } */
 
 .container{
-	max-width: 640px;
-	margin:0 auto;
+    max-width: 640px;
+    margin:0 auto;
+    line-height: 1.5;
+    font-size: 16px;
 }
 
 .content{
-	display:flex;
-	align-items: flex-start;
+    display:flex;
+    align-items: start;
 }
-.content li{
-	display:flex;
-	align-items: flex-start;
-	margin-bottom: 24px;
-	margin-right: 20px;
+
+.news-left{
+    display: flex;
+    margin-bottom: 24px;
+    margin-right: 24px;
 }
-.content li img{
-	margin-right: 20px;
+.news-left img{
+    margin-right: 20px;
 }
-.content h2{
-	line-height: 1.2;
-	font-size: 20px;
+img{
+    display: block;
 }
-.content p{
-	font-size: 16px;
-	line-height: 1.5;
+h2{
+    font-size: 20px;
+    line-height: 1.2;
 }
 
 .footer{
-	line-height: 1.5;
-	font-size: 16px;
-	text-align: center;
-	padding-top: 48px;
-	padding-bottom: 48px;
+    text-align: center;
+    padding-top: 48px;
+    padding-bottom: 48px;
 }
-
-
