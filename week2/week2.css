@@ -43,6 +43,9 @@ table {
 	border-spacing: 0;
 }
 
+*{
+	outline:1px red solid;
+}
 
 .container{
 	width:1920px;
@@ -55,10 +58,55 @@ table {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	background: #000000;
 }
 
 .nav p{
+	margin-top: 40px;
 	font-size: 16px;
 	color: #D1D1D1;
 	width: 306px;
+}
+
+.header {
+	background: #000000;
+}
+
+.header li{
+	display: flex;
+	align-items: flex-start;
+}
+.header .people{
+	width: 636px;
+	height: 848px;
+	margin: 72px 24px 72px 312px;
+}
+.detail{
+	width: 636px;
+	margin-top: 232px;
+}
+
+.detail p{
+	color: #FFFFFF;
+	font-size: 64px;
+}
+.detail .name{
+	color: #00FFA3;
+	font-size: 128px;
+	text-align: right;
+}
+.contact{
+	background: #FFFFFF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 16px;
+	border-radius: 32px;
+	width: 185px;
+	margin-left: 451px;
+	padding-top: 12px;
+}
+.contact a{
+	color: #000000;
+	text-decoration: none;
 }
