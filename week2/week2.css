@@ -110,3 +110,33 @@ table {
 	color: #000000;
 	text-decoration: none;
 }
+
+.introduce {
+	background-image: url(https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023week2/background-img.png);
+	color: #FFFFFF;
+	display: flex;
+	justify-content: space-around;
+	padding-top: 160px;
+	padding-left: 312px;
+
+}
+.introContent{
+	width:526px;
+}
+.introContent h2{
+	font-size: 64px;
+	margin-bottom: 36px;
+}
+.introContent p{
+	font-size: 24px;
+	margin-bottom: 32px;
+}
+.introContent img{
+	margin-right: 16px;
+}
+
+.introImg {
+	display: flex;
+	justify-content: space-between;
+	width: 746px;
+}
