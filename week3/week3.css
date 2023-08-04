@@ -43,9 +43,9 @@ table {
 	border-spacing: 0;
 }
 
-* {
+/* * {
     outline:1px solid black;
-}
+} */
 
 .body{
     line-height: 1.5;
@@ -113,4 +113,29 @@ img{
         padding:12px 0px;
         margin:0px -1px;
     }
+}
+
+.footer{
+    background: #AA0601;
+    color: #fff;
+}
+
+.detail{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu{
+    display:flex;
+    align-items: center;
+}
+
+.menu li{
+    font-size: 16px;
+    padding: 8px 12px;
+}
+
+.social img{
+    width: 48px;
+    padding: 48px 16px; 
 }
