@@ -128,6 +128,10 @@ img{
 .menu{
     display:flex;
     align-items: center;
+
+    @media (max-width:768px) {
+        display:none;
+    }
 }
 
 .menu li{
@@ -138,4 +142,64 @@ img{
 .social img{
     width: 48px;
     padding: 48px 16px; 
+}
+
+.contact{
+    border-bottom: 1px solid #FFFFFF;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.phone{
+    display: flex;
+    margin-bottom: 28px;
+    align-items: center;
+}
+
+.phone span{
+    margin-right: 22px;
+}
+
+.phone h4{
+    font-size: 36px;
+}
+
+.mail{
+    display: flex;
+    align-items: center;
+}
+
+.mail span{
+    margin-right: 22px;
+}
+
+.mail h4{
+    font-size:36px;
+}
+
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    @media (max-width:768px) {
+        flex-direction:column;
+    }
+}
+
+.copyright p{
+    margin-bottom:8px;
+}
+
+.term{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    @media (max-width:768px) {
+        flex-direction:column;
+    }
+}
+
+.term p{
+    margin-left: 48px;
+    @media (max-width:768px) {
+        margin:4px 0;
+    }
 }
