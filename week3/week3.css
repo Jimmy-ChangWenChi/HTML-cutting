@@ -47,7 +47,7 @@ table {
     outline:1px solid black;
 } */
 
-.body{
+body{
     line-height: 1.5;
 }
 
@@ -161,6 +161,9 @@ img{
 
 .phone h4{
     font-size: 36px;
+    @media (max-width:768px) {
+        font-size:16px;
+    }
 }
 
 .mail{
@@ -174,6 +177,9 @@ img{
 
 .mail h4{
     font-size:36px;
+    @media (max-width:768px) {
+        font-size:16px;
+    }
 }
 
 .copyright{
