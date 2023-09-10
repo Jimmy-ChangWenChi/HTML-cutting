@@ -42,11 +42,15 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
-/* * {
+/*
+ * {
     outline:1px solid black;
-} */
+} 
+*/
 
+*, *::before, *::after{
+    box-sizing: border-box;
+   }
 body{
     line-height: 1.5;
 }
@@ -69,9 +73,10 @@ img{
     @media (max-width:768px) {  /*寬度小於768 就套用*/
         max-width:720px;
     }
-
-    @media (max-width:375px) {
+    
+    @media (max-width:767px) {
         max-width:372px;
+        
     }
 }
 
@@ -98,6 +103,7 @@ img{
 
     @media (max-width:768px) {
         flex-wrap:wrap;
+        max-width:100%;
     }
 }
 
@@ -111,7 +117,7 @@ img{
         border: 1px solid #FFFFFF;
         font-size:16px;
         padding:12px 0px;
-        margin:0px -1px;
+        margin-right:0;
     }
 }
 
@@ -120,19 +126,66 @@ img{
     color: #fff;
 }
 
-.social img{
-    width: 48px;
-    padding: 48px 16px; 
+.detail{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #fff;
 }
 
+.left{
+    margin-top: 60px;
+    margin-bottom: 36px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    @media (max-width:768px) {
+        display:none;
+    }
+}
+.menu li{
+    padding-right: 48px;
+    margin-bottom: 36px;
+}
+
+.contact span{
+    margin-right: 22px;
+}
+
+.phone{
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.mail{
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+h4{
+    font-size: 36px;
+    @media (max-width:768px) {
+        font-size:16px;
+    }
+}
 .copyright{
     display: flex;
     justify-content: space-between;
+    padding: 32px 0;
     @media (max-width:768px) {
         flex-direction:column;
     }
 }
-
+.social{
+    margin-top: 48px;
+    display: flex;
+}
+.social img{
+    width:48px;
+}
 .copyright p{
     margin-bottom:8px;
 }
